@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    display: block;
+    content: "";
+    height: 30px;
+}
+
+#movies, #movieCards{
+    background: black;
+}
+
+.card{
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+.card img{
+    width: 13.5rem !important;
+    height: 15rem !important;
+}
