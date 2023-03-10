@@ -7,19 +7,31 @@
 body::before{
     display: block;
     content: "";
-    height: 30px;
+    height: 70px;
+    background: black;
 }
 
-#movies, #movieCards{
+#movieCards{
     background: black;
+    color: white;
 }
 
 .card{
     padding: 0 !important;
-    margin: 0 !important
+    margin: 0 5px !important;
+    width: 11rem;
+    height: 16.5rem;
+    border: none !important;
+    box-shadow: 0 0 4px 4px white;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: .5s;
 }
 
 .card img{
-    width: 13.5rem !important;
-    height: 15rem !important;
+   height: 15rem;
+   width: 100%;
+   border-radius: 10px;
 }
